@@ -1,0 +1,26 @@
+Loaded bundled typescript@3.9.7.
+Vetur initialized
+[Error - 2:20:11 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:12 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:12 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:12 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:13 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:13 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:13 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:20:13 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 

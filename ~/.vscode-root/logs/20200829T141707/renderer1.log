@@ -1,0 +1,64 @@
+[2020-08-29 14:17:37.602] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3451:362)
+    at g._provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4446:537)
+    at g.provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3450:508)
+    at /usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243514
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243376)
+    at t._onHover (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243071)
+    at t._onMouseMove (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242931)
+[2020-08-29 14:19:59.441] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3451:362)
+    at g._provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4446:537)
+    at g.provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3450:508)
+    at /usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243514
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243376)
+    at t._onHover (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243071)
+    at t._onMouseMove (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242931)
+[2020-08-29 14:20:04.893] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:455:18)
+	at new x (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:454:950)
+	at new x (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:442:276)
+	at asSymbolInformation (/root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-08-29 14:20:06.889] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:455:18)
+	at new x (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:454:950)
+	at new x (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:442:276)
+	at asSymbolInformation (/root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /root/.vscode/extensions/octref.vetur-0.26.1/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-08-29 14:20:24.224] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3451:362)
+    at g._provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4446:537)
+    at g.provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3450:508)
+    at /usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243514
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243376)
+    at t._onHover (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243071)
+    at t._onMouseMove (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242931)
+[2020-08-29 14:20:28.608] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3451:362)
+    at g._provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4446:537)
+    at g.provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3450:508)
+    at /usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243514
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243376)
+    at t._onHover (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243071)
+    at t._onMouseMove (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242931)
+[2020-08-29 14:20:38.276] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3451:362)
+    at g._provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4446:537)
+    at g.provideLinks (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3450:508)
+    at /usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243514
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243376)
+    at t._onHover (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:243071)
+    at t._onMouseMove (/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242931)
+[2020-08-29 14:21:35.429] [renderer1] [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/home/nico/Documents/Web/Synology-Dragon/youchat/public/javascripts/components/chat.vue' (Error: File Modified Since) file:///home/nico/Documents/Web/Synology-Dragon/youchat/public/javascripts/components/chat.vue

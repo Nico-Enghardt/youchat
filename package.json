@@ -1,0 +1,25 @@
+{
+  "name": "youchat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "browserify -t vueify -e public/javascripts/main.js -o public/javascripts/bundle.js & node ./bin/www",
+    "test": "node ./bin/www",
+    "build": "browserify -t vueify -e public/javascripts/main.js -o public/javascripts/bundle.js",
+    "dev": "watchify -vd -p browserify-hmr -t vueify -e public/javascripts/main.js -o public/javascripts/bundle.js & node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "browserify": "^16.5.2",
+    "browserify-hmr": "^0.4.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "uuid": "^8.3.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3",
+    "vueify": "^9.4.1",
+    "watchify": "^3.11.1"
+  }
+}

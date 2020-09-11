@@ -1,0 +1,3 @@
+[2020-08-29 14:17:11.617] [sharedprocess] [info] main {"machineId":"acc8b1adf3747c07d5316804f66176a157f08fe621f4bf60883e65ef67266f16","windowId":2}
+[2020-08-29 14:17:11.686] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/nico/Documents/Web/Synology-Dragon/youchat/~/.vscode-root/User/snippets'
+[2020-08-29 14:17:51.648] [sharedprocess] [info] Starting to clean up unused language packs.

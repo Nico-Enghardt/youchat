@@ -1,5 +1,5 @@
 <template>
-    <div class="sidebar">
+    <div class="thissidebar">
         <div class = "logo">
                 <img src="../../images/Logo.svg" class="youchat">
             </div>
@@ -43,16 +43,13 @@
 </template>
 
 <script>
-// import Chatauswahl from './chatauswahl.vue'
 module.exports = {
     name: 'Sidebar',
     props: ["chatnamen"],
-    // Chatauswahl
 }
 </script>
 
-<style>
-
+<style >
     .chatname {
         text-align: center;
         padding: 10px 0px;
@@ -79,13 +76,14 @@ module.exports = {
     }
 
 
-    .sidebar {
+    .thissidebar {
         height: 100%;
         background: linear-gradient(to left, rgb(1, 81, 255), rgb(1, 182, 255));
         display: flex;
         flex-flow: column;
-        min-width: 20%;
+        min-width: 250px;
         max-width: 500px;
+        /* width: 30%; */
         /* z-index: 1;
         top: 0;
         left: 0;

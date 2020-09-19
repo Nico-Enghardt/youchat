@@ -3,14 +3,14 @@
     <form @submit="CreateUser">
       <p class="register">Registrieren</p>
       <img src="../../images/Bezierkurve.svg" class="kurve" />
-      <input type="text" v-model="user" placeholder="Benutzername" />
+      <input type="text" v-model="user" placeholder="Benutzername" class="input">
       <p></p>
       <img src="../../images/Bezierkurve.svg" class="kurve"/>
-      <input :type="type" v-model="pass" placeholder="Passwort"/>
+      <input :type="type" v-model="pass" placeholder="Passwort" class="input">
       <input type="checkbox" v-on:change="show">
       <p></p>
       <img src="../../images/Bezierkurve.svg" class="kurve" />
-      <input :type="type2" v-model="wdhpass" placeholder="Passwort wiederhohlen">
+      <input :type="type2" v-model="wdhpass" placeholder="Passwort wiederhohlen" class="input">
       <input type="checkbox" v-on:change="show2">
       <p></p>
       <button type="submit">Registrieren</button>
@@ -61,7 +61,7 @@ module.exports = {
 </script>
 
 <style>
-input {
+.input {
   background-color: rgb(1, 81, 255, 0);
   border: none;
   color: #fff;
@@ -71,7 +71,7 @@ input {
   width: 275px;
 }
 
-input:focus {
+.input:focus {
   outline: none;
 }
 

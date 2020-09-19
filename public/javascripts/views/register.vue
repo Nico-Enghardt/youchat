@@ -10,7 +10,7 @@
 </template>
 
 <script>
-var Inputfield = require("../components/inputfield_register.vue");
+var Inputfield = require("../components/from register/inputfield_register.vue");
 var axios = require("axios");
 
 // const axios = require('axios');
@@ -33,7 +33,7 @@ module.exports = {
         if (password.length > 2) {
           if (password == wdhpass) {
             axios
-              .post("http://localhost:4343/users", {
+              .post("http://localhost:4343/benutzer", {
                 name,
                 password,
               })

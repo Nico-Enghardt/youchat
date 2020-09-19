@@ -6,12 +6,18 @@
                 <div class="absender">
                     {{absender}}
                 </div>
-                {{message}}
+                {{text}}
+                <div class="date">
+                    {{hour}}:{{minute}}
+                </div>
             </div>
         </div>
         <div v-if="absender === this.benutzer" class="message_yours">
             <div class = "nachricht_yours">
-                {{message}}
+                {{text}}
+                <div class="date">
+                    {{hour}}:{{minute}}
+                </div>
             </div>
             <img src="../../images/Ecke.svg" class ="yours">
         </div>
@@ -21,7 +27,7 @@
 <script>
 module.exports = {
     name: "Nachricht",
-    props: ["message", "absender", "benutzer"],
+    props: ["text", "absender", "hour", "minute", "benutzer"],
 }
 </script>
 
@@ -90,5 +96,12 @@ module.exports = {
     .absender {
         text-decoration: underline;
         font-size: 20px;
+    }
+
+    .date {
+        margin-left: auto;
+        color: rgb(200, 200, 200);
+        font-size: 15px;
+        width: max-content;
     }
 </style>

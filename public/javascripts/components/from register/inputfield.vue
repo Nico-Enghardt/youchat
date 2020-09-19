@@ -1,7 +1,7 @@
 <template>
     <div>
       <img src="../../images/Bezierkurve.svg" class="kurve">
-      <input type="text" :v-model="save" :placeholder="ph">
+      <input type="text" :v-model="save" :placeholder="ph" class="input">
     </div>
 </template>
 
@@ -30,7 +30,7 @@ module.exports = {
 </script>
 
 <style>
-  input{
+  .input{
     background-color: rgb(1, 81, 255, 0);
     border: none;
     color: #fff;
@@ -40,12 +40,13 @@ module.exports = {
     width: 310px;
   }
 
-  input:focus {
+  .input:focus {
     outline: none;
   }
 
   ::placeholder {
     color: rgb(179, 207, 255);
+    text-align: left;
   }
 
   .kurve {

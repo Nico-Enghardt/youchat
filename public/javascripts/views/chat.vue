@@ -3,6 +3,7 @@
     <Sidebar v-bind:namen="chatnamen" />
     <div class="window">
       <div class="chatfenster">
+        <input type="text" v-model="benutzer" placeholder="Benutzername" />
         <Chatfenster :messages="nachrichten" :benutzer="benutzer" />
       </div>
       <div class="new_message">
@@ -18,8 +19,8 @@
 </template>
 
 <script>
-var Sidebar = require("../components/Sidebar.vue");
-var Chatfenster = require("../components/Chatfenster.vue");
+var Sidebar = require("../components/from chat/Sidebar.vue");
+var Chatfenster = require("../components/from chat/Chatfenster.vue");
 var axios = require("axios");
 
 module.exports = {
@@ -30,57 +31,42 @@ module.exports = {
   },
   data() {
     return {
-      benutzer: "Nico",
+      benutzer: "",
       message: "",
       chatnamen: [
-        {
-          name: "chat 1",
-          id: 0,
-        },
-        {
-          name: "chat 2",
-          id: 1,
-        },
-        {
-          name: "chat 3",
-          id: 2,
-        },
       ],
       nachrichten: [
-        {
-          message: "hi",
-          id: 1,
-          absender: "Nico",
-        }
       ],
     };
   },
   methods: {
     send(e) {
+      const heute = new Date();
       newMessage = {
-        message: this.message,
-        absender: this.benutzer,
-      };
-      newNachricht = {
-        id: 1,
         text: this.message,
         absender: this.benutzer,
-      };
+        zeit: {
+          jahr: heute.getYear()+1900,
+          monat: heute.getMonth(),
+          tag: heute.getDate(),
+          stunde: heute.getHours(),
+          minute: heute.getMinutes(),
+          absolute: Date.now(),
+        }
+        
+      }
       axios
       .post("http://localhost:4343/nachrichten", newMessage)
-      .catch((err) => console.log(err));
-      console.log("hIIII")
+      .catch((err,res) => console.log("Yo, this is the error here:",err,res))
+      .then((res) => {
+        console.log(res);
+      })
     },
   },
   mounted: function () {
-    // console.log("Please print my code at the start.");
     axios.get("http://localhost:4343/nachrichten")
     .then((res) => {
-      console.log("1234")
-      console.log(res.data, "hI");
-      console.log(res.data.length);
       for(var i = 0; i<res.data.length; i++){
-        console.log(i, res.data[i]);
         this.nachrichten.push(res.data[i]);
       }
     });

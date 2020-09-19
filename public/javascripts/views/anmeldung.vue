@@ -15,7 +15,7 @@
 </template>
 
 <script>
-var Inputfield = require('../components/inputfield.vue');
+var Inputfield = require('../components/from register/inputfield.vue');
 module.exports = {
   name: 'Anmeldung',
   components: {

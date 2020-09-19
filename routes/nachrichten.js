@@ -5,7 +5,6 @@ var fs = require('fs');
 var crypto = require('crypto');
 
 router.get('/', function (req, res, next) {
-  console.log("1")
   fs.readFile('./data/nachrichten.json', (err, data) => {
     if (err) { 
       console.log("Error occured during reading message file:",err);
@@ -17,14 +16,12 @@ router.get('/', function (req, res, next) {
   })
 });
 
-console.log("2")
 router.post('/', (req, res) => {
   var newMessage = {
-    text: req.body.message,
+    text: req.body.text,
     absender: req.body.absender,
-    id: uuid.v4(),
+    zeit: req.body.zeit,
   };
-  console.log(req.body.message)
 
   if (!newMessage.text) {
     return res.status(400).json({ msg: "Please include a Message." })
@@ -37,12 +34,11 @@ router.post('/', (req, res) => {
     }
 
     var messages = JSON.parse(data);
+    newMessage.id = messages.length;
     messages.push(newMessage);
 
     var messagesString = JSON.stringify(messages, null, "\t");
-    console.log("3")
     fs.writeFile('./data/nachrichten.json', messagesString, (err) => {
-      console.log("hi")
       if (err) {
         console.log('Error while writing to messages database:', err)
         res.status(500).json({ msg: "Internal Error. Will be fixed soon." })
@@ -50,7 +46,6 @@ router.post('/', (req, res) => {
       else { res.json({ msg: "Message successfully created" }) }
       console.log("Message created")
     })
-    console.log("4")
 
   })
 
@@ -58,7 +53,7 @@ router.post('/', (req, res) => {
 
 module.exports = router;
 
-
+// Hash function which returns false in case that the password is not existent or of lenght 0.
 hash = function (password) {
   if (typeof (password) == 'string' && password.length > 0) {
     var hash = crypto.createHmac('sha256', "Yosoy uncomputadora.").update(password).digest('hex');

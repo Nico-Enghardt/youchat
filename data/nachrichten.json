@@ -1,17 +1,28 @@
 [
 	{
-		"message": "hi",
-		"absender": "Nico",
-		"id": "a11ece09-e755-4d1f-afd8-730912a95cd6"
+		"text": "erste Nachricht",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 18,
+			"stunde": 21,
+			"minute": 34,
+			"absolute": 1600457696082
+		},
+		"id": 0
 	},
 	{
-		"message": "hi",
-		"absender": "Nico",
-		"id": "bf4ea67b-76b7-4843-9952-899c8833c815"
-	},
-	{
-		"message": "hi",
-        "id": 1,
-        "absender": "Nico"
+		"text": "Vincent schreibt etwas",
+		"absender": "Vincent",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 18,
+			"stunde": 21,
+			"minute": 35,
+			"absolute": 1600457737035
+		},
+		"id": 1
 	}
 ]

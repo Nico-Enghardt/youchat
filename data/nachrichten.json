@@ -24,5 +24,96 @@
 			"absolute": 1600457737035
 		},
 		"id": 1
+	},
+	{
+		"text": "I want to write a new Message",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 20,
+			"stunde": 11,
+			"minute": 10,
+			"absolute": 1600593054918
+		},
+		"id": 2
+	},
+	{
+		"text": "Can i write another Message please?",
+		"absender": "Nico",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 21,
+			"stunde": 16,
+			"minute": 23,
+			"absolute": 1600698207361
+		},
+		"id": 3
+	},
+	{
+		"text": "lllllllll",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 26,
+			"stunde": 20,
+			"minute": 30,
+			"absolute": 1601145039030
+		},
+		"id": 4
+	},
+	{
+		"text": "Is ist possible to write this message?",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 27,
+			"stunde": 13,
+			"minute": 13,
+			"absolute": 1601205227763
+		},
+		"id": 5
+	},
+	{
+		"text": "Write Message",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 27,
+			"stunde": 13,
+			"minute": 15,
+			"absolute": 1601205332016
+		},
+		"id": 6
+	},
+	{
+		"text": "Message new",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 27,
+			"stunde": 13,
+			"minute": 16,
+			"absolute": 1601205368877
+		},
+		"id": 7
+	},
+	{
+		"text": "Message",
+		"absender": "",
+		"zeit": {
+			"jahr": 2020,
+			"monat": 8,
+			"tag": 27,
+			"stunde": 13,
+			"minute": 16,
+			"absolute": 1601205401950
+		},
+		"id": 8
 	}
 ]

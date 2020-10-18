@@ -13,7 +13,6 @@ module.exports = {
   props: ["ph", "save"],
   data(){
     return {
-      save: ''
     }
   },
   methods: {

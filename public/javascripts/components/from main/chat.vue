@@ -3,12 +3,13 @@
         <h1>
         Chat auswählen
         </h1>
-        <input type="text" v-model="search" placeholder="Chat Suchen..."/>
+        <center>
+            <input type="text" v-model="search" placeholder="Chat Suchen..." class="search">
+        </center>
         <div class="scroll">
-            <div v-for="name in filteredNames" :key="name.id" class="chat">
+            <div v-for="chat in filteredNames" :key="chat.id" class="chat">
                 <center>
-                    <input type="radio" :id="name.name" name="chat" :value="name.name">
-                    {{name.name}}
+                    <router-link :to="chat.link" class="chat">{{chat.name}}</router-link> 
                 </center>
             </div>
         </div>
@@ -17,12 +18,16 @@
 
 <script>
 module.exports = {
-    name: 'chat',
-    // props: ["chatnamen"],
+    name: 'selecchat',
+    props: [],
     data() {
         return {
             search: '',
-            chatnames: [
+            chatnames: []
+        }
+    },
+    mounted: function () {
+        this.chatnames = [
                 {
                     name: "Chat 1",
                     id: 1,
@@ -104,7 +109,10 @@ module.exports = {
                     id: 20,
                 }
             ]
+        for(chat of this.chatnames){
+            chat.link = "/chat/"+chat.id;
         }
+        
     },
     methods: {
     },
@@ -137,9 +145,23 @@ module.exports = {
         height: 100%;
     }
 
-    input{
-        width: 100%;
+    .search {
+        margin-bottom: 20px;
+        font-size: 20px;
+        background: none;
         text-align: center;
+        color: white;
+        width: 70%;
+        border: none;
+    }
+
+    .search:focus{
+        outline: none;
+    }
+
+    ::placeholder {
+        text-align: center;
+        font-size: 20px;
     }
 
     h1 {
@@ -149,7 +171,7 @@ module.exports = {
     }
 
     input[type="radio"] {
-        width: 20px;
-        height: 20px;
+        width: 17px;
+        height: 17px;
     }
 </style>

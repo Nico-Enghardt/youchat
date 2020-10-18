@@ -31,45 +31,51 @@ module.exports = {
   },
   data() {
     return {
+      chatId: "",
       benutzer: "",
       message: "",
-      chatnamen: [
-      ],
-      nachrichten: [
-      ],
+      chatnamen: [],
+      nachrichten: [],
     };
   },
   methods: {
     send(e) {
+      e.preventDefault();
       const heute = new Date();
       newMessage = {
         text: this.message,
         absender: this.benutzer,
         zeit: {
-          jahr: heute.getYear()+1900,
+          jahr: heute.getYear() + 1900,
           monat: heute.getMonth(),
           tag: heute.getDate(),
           stunde: heute.getHours(),
           minute: heute.getMinutes(),
           absolute: Date.now(),
-        }
-        
-      }
+        },
+      };
       axios
-      .post("http://localhost:4343/nachrichten", newMessage)
-      .catch((err,res) => console.log("Yo, this is the error here:",err,res))
-      .then((res) => {
-        console.log(res);
-      })
+        .post(
+          "http://localhost:4343/chat/nachrichten?id=" + this.chatId,
+          newMessage
+        )
+        .catch((err, res) =>
+          console.log("Yo, this is the error here:", err, res)
+        )
+        .then((res) => {
+          this.nachrichten.push(newMessage);
+        });
     },
   },
   mounted: function () {
-    axios.get("http://localhost:4343/nachrichten")
-    .then((res) => {
-      for(var i = 0; i<res.data.length; i++){
-        this.nachrichten.push(res.data[i]);
-      }
-    });
+    this.chatId = this.$route.params.chatId;
+    axios
+      .get("http://localhost:4343/chat/nachrichten?id=" + this.chatId)
+      .then((res) => {
+        for (message of res.data) {
+          this.nachrichten.push(message);
+        }
+      });
   },
 };
 </script>

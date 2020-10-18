@@ -60,7 +60,7 @@ module.exports = {
 }
 </script>
 
-<style>
+<style >
 .input {
   background-color: rgb(1, 81, 255, 0);
   border: none;

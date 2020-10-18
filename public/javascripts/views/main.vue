@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <div class="auswahl">
-          <chat/>
+          <selectChat/>
           <div class="spalt"/>
           <newChat/>
       </div>
@@ -9,13 +9,13 @@
 </template>
 
 <script>
-var chat = require("../components/from main/chat.vue");
+var selectChat = require("../components/from main/selectChat.vue");
 var newChat = require("../components/from main/newChat.vue");
 
 module.exports = {
-  name: "main",
+  name: "Hauptmenue",
   components: {
-      chat,
+      selectChat,
       newChat
   },
   data() {

@@ -2,8 +2,11 @@ var express = require('express');
 var router = express.Router();
 var uuid = require('uuid');
 var fs = require('fs');
-var crypto = require('crypto');
 
+const func= require('./Modules/functions')
+
+
+// Get all messages in the messages file
 router.get('/', function (req, res, next) {
   fs.readFile('./data/nachrichten.json', (err, data) => {
     if (err) { 
@@ -16,6 +19,7 @@ router.get('/', function (req, res, next) {
   })
 });
 
+// Send a message
 router.post('/', (req, res) => {
   var newMessage = {
     text: req.body.text,
@@ -53,12 +57,3 @@ router.post('/', (req, res) => {
 
 module.exports = router;
 
-// Hash function which returns false in case that the password is not existent or of lenght 0.
-hash = function (password) {
-  if (typeof (password) == 'string' && password.length > 0) {
-    var hash = crypto.createHmac('sha256', "Yosoy uncomputadora.").update(password).digest('hex');
-    return hash;
-  } else {
-    return false;
-  }
-};

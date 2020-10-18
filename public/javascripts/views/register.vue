@@ -13,7 +13,6 @@
 var Inputfield = require("../components/from register/inputfield_register.vue");
 var axios = require("axios");
 
-// const axios = require('axios');
 
 module.exports = {
   name: "Registrieren",

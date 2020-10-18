@@ -9,14 +9,13 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'Chat',
-    component: chat
-  },
-  {
     path: '/login',
     name: 'Anmeldung',
     component: anmeldung,
+  },
+  {
+    path: '/',
+    redirect: '/main'
   },
   {
     path: '/register',
@@ -27,6 +26,11 @@ const routes = [
     path: '/main',
     name: 'Hauptmenü',
     component: mainwindow,
+  },
+  {
+    path: '/chat/:chatId',
+    name: 'Chat',
+    component: chat,
   }
 ]
 

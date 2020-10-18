@@ -20,18 +20,6 @@
    sodipodi:docname="Logo.svg">
   <defs
      id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient7545">
-      <stop
-         style="stop-color:#0151e7;stop-opacity:1"
-         offset="0"
-         id="stop7541" />
-      <stop
-         style="stop-color:#61d2ff;stop-opacity:1"
-         offset="1"
-         id="stop7543" />
-    </linearGradient>
     <inkscape:path-effect
        end_linecap_type="zerowidth"
        miter_limit="4"
@@ -44,18 +32,6 @@
        is_visible="true"
        id="path-effect6472"
        effect="powerstroke" />
-    <linearGradient
-       id="linearGradient6433"
-       inkscape:collect="always">
-      <stop
-         id="stop6429"
-         offset="0"
-         style="stop-color:#0151e7;stop-opacity:1" />
-      <stop
-         id="stop6431"
-         offset="1"
-         style="stop-color:#01b6ff;stop-opacity:1" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient6328">
@@ -204,86 +180,6 @@
        y2="91.469734"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.0000018,0,0,1.3515982,-46.856662,295.99354)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient6342"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.40729429,0,0,-0.38718905,127.58083,515.18117)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient7283"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.10776328,0,0,0.03625526,-33.755762,-170.01539)"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient7293"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.10776328,0,0,0.03625526,-33.755762,-190.54467)"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient7293-4"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.10776328,0,0,0.03625526,-33.755763,-252.1352)"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient7283-8"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.10776328,0,0,0.03625526,-33.755763,-231.60592)"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient7293-40"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.10776328,0,0,0.03625526,-33.755764,-211.07674)"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7545"
-       id="linearGradient7447"
-       x1="50.00005"
-       y1="179.69789"
-       x2="223.75806"
-       y2="179.69789"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91601072,0,0,0.91601072,54.393983,-287.96662)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6433"
-       id="linearGradient894"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.40729429,0,0,-0.38718905,127.58083,515.18117)"
-       x1="-152.17252"
-       y1="76.769913"
-       x2="314.67239"
-       y2="76.769913" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -292,9 +188,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="492.433"
-     inkscape:cy="-157.09453"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="124.15948"
+     inkscape:cy="71.733606"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -323,7 +219,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -332,18 +228,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(38.233583,10.349406)">
-    <path
-       style="opacity:1;fill:url(#linearGradient894);fill-opacity:1;stroke:none;stroke-width:1.13773274;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 0,378.66211 v 136 h 188.97656 v -136 z"
-       transform="scale(0.26458333)"
-       id="path7334"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:1;fill:url(#linearGradient6342);fill-opacity:1;stroke:none;stroke-width:1.13773274;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 0,516.66211 v 75.58984 h 188.97656 v -75.58984 z"
-       transform="scale(0.26458333)"
-       id="rect6334"
-       inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path6354"
@@ -385,241 +269,6 @@
        id="path6373"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccc" />
-    <g
-       id="use7114"
-       transform="translate(3.0915395,4.6825484)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path7116"
-         d="m 10.087967,106.994 c -0.05858,0 -0.08797,0.048 -0.08797,0.1449 0,0.1758 0.0087,0.4393 0.02635,0.7908 0.01757,0.3514 0.02636,0.6152 0.02636,0.7909 0,0.073 0.03377,0.1669 0.101141,0.2811 0.659029,1.034 1.165662,1.8015 1.520074,2.3023 0.0703,0.1084 0.105409,0.2094 0.105409,0.3031 0,0.1582 -0.01316,0.3969 -0.03953,0.7161 -0.02637,0.3164 -0.03953,0.5522 -0.03953,0.7075 0,0.073 0.04103,0.1156 0.123039,0.1273 0.11716,0.017 0.388125,0.026 0.812834,0.026 0.421779,0 0.685306,-0.01 0.79075,-0.026 0.07323,-0.012 0.112912,-0.019 0.11877,-0.022 0.02343,-0.012 0.03507,-0.044 0.03507,-0.097 0,-0.1523 -0.0087,-0.3836 -0.02635,-0.6941 -0.01757,-0.3105 -0.02636,-0.5434 -0.02636,-0.6987 0,-0.1 0.04694,-0.2108 0.140668,-0.3338 0.661959,-0.8378 1.184623,-1.636 1.568325,-2.3946 0.04686,-0.094 0.07034,-0.2034 0.07034,-0.3294 0,-0.1581 -0.0029,-0.3925 -0.0087,-0.7029 -0.0059,-0.3134 -0.0087,-0.5478 -0.0087,-0.703 0,-0.126 -0.02938,-0.1889 -0.08797,-0.1889 -0.178669,0 -0.445246,0.01 -0.799658,0.026 -0.351482,0.015 -0.615009,0.022 -0.790751,0.022 h -0.10987 c -0.02636,0.01 -0.03953,0.044 -0.03953,0.1054 0,0.1465 0.0103,0.3692 0.0308,0.6679 0.02344,0.2958 0.03507,0.517 0.03507,0.6635 0,0.073 -0.125943,0.2856 -0.37784,0.637 -0.199173,0.2812 -0.358888,0.4921 -0.478978,0.6327 -0.131804,-0.1494 -0.300112,-0.3618 -0.505143,-0.6371 -0.257754,-0.3515 -0.386746,-0.5711 -0.386746,-0.659 0,-0.1494 0.006,-0.3734 0.01763,-0.6722 0.01464,-0.3017 0.0219,-0.5272 0.0219,-0.6766 -10e-7,-0.044 -0.03359,-0.066 -0.100955,-0.066 -0.1816,0 -0.45409,-0.01 -0.817289,-0.022 -0.363198,-0.014 -0.633978,-0.0213 -0.812648,-0.0213 z m 18.478619,0.1026 c -0.06152,0 -0.09223,0.035 -0.09223,0.1056 0,0.3368 0.01623,0.845 0.04844,1.5245 0.03225,0.6795 0.04826,1.1891 0.04826,1.5288 0,0.1172 -0.0044,0.2945 -0.01318,0.5317 -0.0088,0.2372 -0.01318,0.4159 -0.01318,0.536 4e-6,0.5184 0.120595,1.2084 0.482135,1.5473 1.581662,1.4825 3.414948,0.9394 4.277589,-0.01 0.410018,-0.3885 0.437594,-1.0111 0.437594,-1.758 0,-0.094 -0.0014,-0.2343 -0.0042,-0.4218 -0.0029,-0.1904 -0.0044,-0.3324 -0.0044,-0.4261 0,-0.3397 0.01318,-0.8493 0.03953,-1.5288 0.02927,-0.6795 0.04398,-1.1877 0.04398,-1.5245 0,-0.07 -0.04255,-0.1056 -0.12749,-0.1056 -0.172807,0 -0.433486,0.01 -0.78203,0.022 -0.34854,0.015 -0.60922,0.022 -0.782026,0.022 -0.07322,0 -0.109678,0.046 -0.109678,0.1362 0,0.4247 0.01013,1.0617 0.03063,1.9111 0.02051,0.8494 0.03082,1.4866 0.03082,1.9113 0,0.5828 -0.300182,0.8742 -0.900613,0.8742 -0.410047,0 -0.67951,-0.1099 -0.808383,-0.3295 -0.09665,-0.1611 -0.145122,-0.4716 -0.145122,-0.9315 0,-0.3866 0.01182,-0.965 0.03526,-1.7353 0.02636,-0.7733 0.03953,-1.3532 0.03953,-1.7398 0,-0.064 -0.03664,-0.097 -0.109865,-0.097 -0.17866,0 -0.449642,-0.01 -0.812831,-0.022 -0.360255,-0.015 -0.629715,-0.022 -0.808382,-0.022 z m -9.791498,0.018 c -0.01939,4e-4 -0.03865,0 -0.05772,0.01 -1.698371,0.032 -3.074234,1.4207 -3.074109,3.1264 9.8e-5,1.7255 1.40667,3.132 3.132196,3.132 h 5.915874 2.771061 c 0.199586,1e-4 0.361401,-0.1617 0.361318,-0.3613 0.01436,-0.9091 -0.01871,-1.8884 0,-2.7707 v -7e-4 c -2.29e-4,-1.7254 -1.407007,-3.1319 -3.132379,-3.1319 h -5.911791 c -0.0013,0 -0.0027,0 -0.004,0 z m 0,0.722 h 3.58e-4 5.91569 c 1.335073,10e-5 2.409532,1.0747 2.40974,2.4098 v 3e-4 c -0.02266,1.3279 -1.060464,2.3895 -2.409553,2.4105 H 18.77546 c -1.335204,0 -2.410035,-1.0747 -2.410111,-2.4099 -9.7e-5,-1.3352 1.074356,-2.4099 2.409553,-2.4101 z m -5.572369,5.7344 c -0.883658,0 -1.61159,0.3292 -2.18389,0.9875 -0.548577,0.6286 -0.822856,1.3936 -0.822856,2.295 0,0.9311 0.280233,1.7022 0.840672,2.3131 0.575265,0.6316 1.325343,0.793 2.250512,0.793 1.198374,0.029 2.57535,0.024 3.642908,0.025 0.462585,0 0.741329,-0.01 0.836217,-0.027 0.08006,-0.015 0.120256,-0.067 0.120256,-0.1555 0,-0.2313 -0.0076,-0.5768 -0.02246,-1.0364 -0.01483,-0.4626 -0.02227,-0.8095 -0.02227,-1.0408 0,-0.1186 0.03256,-0.1856 0.0978,-0.2004 0.103786,-0.024 0.465706,-0.036 1.08545,-0.036 0.61678,0 0.975534,0.012 1.076356,0.036 0.06523,0.018 0.0978,0.085 0.0978,0.2004 0,0.2343 -0.01174,0.5871 -0.03545,1.0586 -0.02075,0.4685 -0.03099,0.8198 -0.03099,1.0541 0,0.062 0.03982,0.1022 0.119882,0.12 0.08303,0.018 0.357309,0.027 0.822856,0.027 0.329152,0 0.584254,-0.01 0.765141,-0.027 0.07115,-0.01 0.112653,-0.013 0.124523,-0.022 0.02668,-0.015 0.04009,-0.053 0.04009,-0.1158 0,-0.3202 -0.01637,-0.8035 -0.04899,-1.4499 -0.02962,-0.6464 -0.04455,-1.1313 -0.04455,-1.4546 0,-0.3439 0.01321,-0.8599 0.0399,-1.5479 0.02962,-0.6879 0.04473,-1.2024 0.04473,-1.5434 0,-0.071 -0.04316,-0.1067 -0.129163,-0.1067 -0.08896,0 -0.222374,0 -0.400292,0.014 -0.174955,0.01 -0.305389,0.013 -0.391387,0.013 -0.08896,0 -0.222375,0 -0.400292,-0.013 -0.174954,-0.01 -0.305577,-0.014 -0.391571,-0.014 -0.07413,0 -0.110976,0.046 -0.110976,0.138 0,0.2165 0.01023,0.541 0.03099,0.9739 0.02075,0.43 0.03118,0.7517 0.03118,0.9652 0,0.1038 -0.03554,0.1647 -0.106707,0.1825 -0.100819,0.024 -0.468505,0.036 -1.10308,0.036 -0.682014,0 -1.061614,-0.012 -1.13871,-0.036 -0.05634,-0.018 -0.08444,-0.079 -0.08444,-0.1825 0,-0.2224 0.01619,-0.5545 0.04881,-0.9963 0.03262,-0.4448 0.049,-0.7783 0.049,-1.0007 0,-0.053 -0.0253,-0.08 -0.07572,-0.08 -0.09489,0 -0.238542,0 -0.431286,0.014 -0.189778,0.01 -0.332127,0.013 -0.427016,0.013 -0.09193,0 -0.231295,0 -0.418109,-0.013 -0.183847,-0.01 -0.321731,-0.014 -0.413654,-0.014 -0.06227,0 -0.09353,0.033 -0.09353,0.098 0,0.344 0.01488,0.8614 0.04454,1.5524 0.02965,0.6879 0.04435,1.2039 0.04435,1.5479 0,0.3232 -0.01619,0.8081 -0.0488,1.4545 -0.0011,0.025 -0.0017,0.042 -0.0028,0.067 -0.93032,-0.1906 -1.863294,-0.088 -2.7371,0.018 -0.435897,0 -0.784418,-0.166 -1.045363,-0.4981 -0.240189,-0.3054 -0.360024,-0.6837 -0.360024,-1.1344 0,-0.4448 0.119835,-0.8183 0.360024,-1.1207 0.260945,-0.3262 0.609466,-0.4892 1.045363,-0.4892 0.252049,0 0.495251,0.059 0.72951,0.1778 0.154196,0.08 0.311244,0.1913 0.47137,0.3336 0.133436,0.1186 0.207684,0.1778 0.222508,0.1778 0.03558,0 0.06517,-0.012 0.08889,-0.035 0.05338,-0.044 0.182327,-0.2476 0.386931,-0.6094 0.207571,-0.3618 0.311401,-0.5709 0.311401,-0.6272 0,-0.051 -0.02977,-0.1081 -0.08908,-0.1734 -0.545612,-0.5901 -1.298668,-0.885 -2.259419,-0.885 z m 11.560247,0.04 c -0.04744,0 -0.08894,0.056 -0.124523,0.1691 -0.06227,0.1957 -0.456754,1.2766 -1.18325,3.2426 -0.670154,1.8177 -1.005278,2.765 -1.005278,2.8421 0,0.086 0.226829,0.129 0.680515,0.129 0.575272,0 0.913373,-0.012 1.014188,-0.036 0.08007,-0.021 0.148351,-0.1541 0.204692,-0.4002 0.06227,-0.2699 0.118469,-0.4284 0.168879,-0.4759 0.0326,-0.027 0.30113,-0.04 0.805225,-0.04 0.747254,0 1.14453,0.01 1.191973,0.031 0.05635,0.03 0.134866,0.258 0.235685,0.685 0.02668,0.1126 0.0905,0.1793 0.19133,0.2 0.121575,0.024 0.394367,0.036 0.818401,0.036 0.462585,0 0.738351,-0.012 0.827312,-0.036 0.07413,-0.021 0.11116,-0.058 0.11116,-0.1111 0,-0.08 -0.352803,-1.0378 -1.058542,-2.8734 -0.70277,-1.8236 -1.12684,-2.8911 -1.272139,-3.2025 -0.04745,-0.098 -0.09936,-0.1468 -0.155701,-0.1468 -0.0771,0 -0.194142,0.01 -0.3513,0.018 -0.154197,0.01 -0.271423,0.013 -0.351488,0.013 -0.08302,0 -0.208999,-0.01 -0.37802,-0.022 -0.16606,-0.015 -0.289054,-0.022 -0.369119,-0.022 z m 8.55759,0.054 c -0.790089,0.059 -0.914296,0.5743 -2.10168,0.5694 -1.187378,0 -1.607749,-0.4715 -2.08813,-0.5337 -0.03555,0 -0.05643,0 -0.06236,0 -0.05042,0 -0.08599,0.1111 -0.106708,0.3334 -0.021,0.2398 -0.05062,0.9947 -0.111161,1.2544 -0.04156,0.1898 -0.05917,0.3107 -0.04491,0.3478 0.01131,0.029 0.02112,0.033 0.06273,0.037 0.351474,0.031 0.816789,-0.027 1.409841,-0.086 0.0237,0.8006 0.03563,0.8584 0.03563,1.0897 0,0.3499 -0.0149,0.8748 -0.04454,1.5746 -0.02962,0.6998 -0.04435,1.2246 -0.04435,1.5745 0,0.077 0.0415,0.123 0.124524,0.1379 0.154198,0.024 0.422515,0.036 0.805038,0.036 0.343973,0 0.605036,-0.012 0.782957,-0.036 0.07414,-0.01 0.115618,-0.016 0.124524,-0.022 0.02672,-0.015 0.0399,-0.05 0.0399,-0.1067 0,-0.3499 -0.01472,-0.8762 -0.04435,-1.5789 -0.02672,-0.7028 -0.04009,-1.2292 -0.04009,-1.5791 0,-0.2966 0.0089,-0.3618 0.02672,-1.112 0.779872,0.044 1.226082,0.067 1.338765,0.067 0.06524,0 0.09799,-0.03 0.09799,-0.089 l -1.88e-4,2e-4 c 0,-0.071 -0.01027,-0.1778 -0.03099,-0.3201 -0.02251,-0.1857 -0.0352,-0.8991 -0.01781,-1.1209 0.0061,-0.1424 0.0089,-0.2537 0.0089,-0.3337 -0.0029,-0.05 -0.0089,-0.078 -0.01781,-0.084 -0.0089,-0.01 -0.04314,-0.013 -0.102438,-0.013 z m -7.77482,2.1303 c 0.06227,0.1186 0.160148,0.3916 0.293585,0.8186 0.1364,0.4418 0.20451,0.7116 0.20451,0.8095 0,0.027 -0.0029,0.047 -0.0089,0.062 -0.02075,0.048 -0.128866,0.071 -0.324577,0.071 -0.210532,0 -0.361813,0 -0.453736,-0.01 -0.177921,-0.01 -0.266863,-0.036 -0.266863,-0.089 0,-0.08 0.08001,-0.3514 0.240138,-0.814 0.14826,-0.4359 0.253583,-0.7191 0.315853,-0.8496 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.05498505px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25540614" />
-    </g>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7120"
-       width="50"
-       height="0.52916664"
-       x="1.0658143e-15"
-       y="136.17081" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.56932259px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26423305"
-       x="13.564465"
-       y="149.5213"
-       id="text7124"
-       transform="scale(1.0013255,0.99867625)"><tspan
-         sodipodi:role="line"
-         id="tspan7122"
-         x="13.564465"
-         y="149.5213"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.04621506px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26423305">Chat 1</tspan></text>
-    <rect
-       transform="scale(-1)"
-       y="-177.23207"
-       x="-50"
-       height="20"
-       width="50"
-       id="rect7275"
-       style="opacity:1;fill:url(#linearGradient7283);fill-opacity:1;stroke:none;stroke-width:0.17907934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
-    <rect
-       y="156.70288"
-       x="1.0658143e-15"
-       height="0.52916664"
-       width="50"
-       id="rect7277"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
-    <text
-       transform="scale(1.0013255,0.99867625)"
-       id="text7281"
-       y="170.0806"
-       x="13.564465"
-       style="font-style:normal;font-weight:normal;font-size:10.56932259px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26423305"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.04621506px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26423305"
-         y="170.0806"
-         x="13.564465"
-         id="tspan7279"
-         sodipodi:role="line">Chat 1</tspan></text>
-    <rect
-       style="opacity:1;fill:url(#linearGradient7293);fill-opacity:1;stroke:none;stroke-width:0.17907934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7285"
-       width="50"
-       height="20"
-       x="-50"
-       y="-197.76135"
-       transform="scale(-1)" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7287"
-       width="50"
-       height="0.52916664"
-       x="1.0658143e-15"
-       y="177.23216" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.56932259px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26423305"
-       x="13.564465"
-       y="190.63708"
-       id="text7291"
-       transform="scale(1.0013255,0.99867625)"><tspan
-         sodipodi:role="line"
-         id="tspan7289"
-         x="13.564465"
-         y="190.63708"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.04621506px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26423305">Chat 1</tspan></text>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7120-4"
-       width="50"
-       height="0.52916664"
-       x="5e-07"
-       y="197.76135" />
-    <rect
-       style="opacity:1;fill:url(#linearGradient7293-40);fill-opacity:1;stroke:none;stroke-width:0.17907934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7285-0"
-       width="50"
-       height="20"
-       x="-50"
-       y="-218.29343"
-       transform="scale(-1)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.56932259px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26423305"
-       x="13.564464"
-       y="211.19348"
-       id="text7124-3"
-       transform="scale(1.0013255,0.99867625)"><tspan
-         sodipodi:role="line"
-         id="tspan7122-0"
-         x="13.564464"
-         y="211.19348"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.04621458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26423305">Chat 1</tspan></text>
-    <rect
-       transform="scale(-1)"
-       y="-238.82262"
-       x="-50.000008"
-       height="20"
-       width="50"
-       id="rect7275-0"
-       style="opacity:1;fill:url(#linearGradient7283-8);fill-opacity:1;stroke:none;stroke-width:0.17907934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
-    <rect
-       y="218.29343"
-       x="5e-07"
-       height="0.52916664"
-       width="50"
-       id="rect7277-9"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
-    <text
-       transform="scale(1.0013255,0.99867625)"
-       id="text7281-5"
-       y="231.75278"
-       x="13.564464"
-       style="font-style:normal;font-weight:normal;font-size:10.56932259px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26423305"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.04621458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26423305"
-         y="231.75278"
-         x="13.564464"
-         id="tspan7279-3"
-         sodipodi:role="line">Chat 1</tspan></text>
-    <rect
-       style="opacity:1;fill:url(#linearGradient7293-4);fill-opacity:1;stroke:none;stroke-width:0.17907934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7285-4"
-       width="50"
-       height="20"
-       x="-50.000008"
-       y="-259.35187"
-       transform="scale(-1)" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7287-4"
-       width="50"
-       height="0.52916664"
-       x="5e-07"
-       y="238.82271" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.56932259px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26423305"
-       x="13.564464"
-       y="252.30927"
-       id="text7291-3"
-       transform="scale(1.0013255,0.99867625)"><tspan
-         sodipodi:role="line"
-         id="tspan7289-9"
-         x="13.564464"
-         y="252.30927"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.04621458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26423305">Chat 1</tspan></text>
-    <rect
-       style="opacity:1;fill:url(#linearGradient7447);fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7439"
-       width="159.16418"
-       height="145.6644"
-       x="100.19456"
-       y="-196.19362"
-       transform="rotate(90)" />
-    <rect
-       y="-50.529213"
-       x="100.18768"
-       height="0.52916586"
-       width="159.17793"
-       id="rect7449"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       transform="rotate(90)" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect7477"
-       width="131.49791"
-       height="8.2020836"
-       x="57.612465"
-       y="245.40623"
-       ry="4.1010418" />
-    <path
-       inkscape:connector-curvature="0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.05498505px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:0.83221281"
-       d="m 114.61936,218.23011 c -0.0632,0.001 -0.12596,-5e-5 -0.1881,0.0326 -5.53395,0.10427 -10.01686,4.62914 -10.01645,10.18698 2.7e-4,5.62235 4.58315,10.20506 10.20558,10.20506 h 64.27101 9.02943 c 0.65035,2.6e-4 1.17744,-0.52682 1.17719,-1.17719 0.0469,-2.9622 -0.0609,-6.15299 0,-9.02787 v -0.002 c -8e-4,-5.62206 -4.58469,-10.20506 -10.20662,-10.20506 h -64.25757 -0.0129 z m 0,2.3523 h 0.001 64.27049 c 4.35018,2.7e-4 7.85103,3.50196 7.85172,7.85224 v 0.001 c -0.074,4.32682 -3.45537,7.78588 -7.8512,7.8543 h -64.27104 c -4.35062,0 -7.85302,-3.50164 -7.85326,-7.85224 -2.7e-4,-4.3506 3.50112,-7.8526 7.85171,-7.85326 z"
-       id="path7499" />
-    <path
-       inkscape:connector-curvature="0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.05498505px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:0.43925237;stroke:none;stroke-width:0.83221281"
-       d="m 114.61942,220.58258 h 10e-4 64.27044 c 4.35018,3.3e-4 7.85119,3.50179 7.85188,7.85207 v 9.4e-4 c -0.074,4.32682 -3.45543,7.78593 -7.85126,7.85435 h -64.27105 c -4.35062,0 -7.85283,-3.50179 -7.85308,-7.85239 -3.2e-4,-4.3506 3.50067,-7.85239 7.85126,-7.85305 z"
-       id="path7116-1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="111.34894"
-       y="232.38797"
-       id="text7487"><tspan
-         sodipodi:role="line"
-         id="tspan7485"
-         x="111.34894"
-         y="232.38797"
-         style="fill:#4b4b4b;fill-opacity:1;stroke-width:0.26458332">Hallo Vincent</tspan></text>
-    <g
-       id="g7539"
-       transform="translate(0,-2.2450641)">
-      <path
-         sodipodi:nodetypes="ccccccsccc"
-         inkscape:connector-curvature="0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.05498505px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c900ff;fill-opacity:0.43925237;stroke:none;stroke-width:0.83221281"
-         d="m 107.43773,193.42279 h -0.001 l -41.8198,0.37418 c -4.35018,3.3e-4 -7.85119,3.50179 -7.85188,7.85207 v 9.4e-4 c 0.074,4.32682 3.45543,7.78593 7.85126,7.85435 l 41.82041,-0.37418 c 4.35045,-0.0389 7.85283,-3.50179 7.85308,-7.85239 3.2e-4,-4.3506 -3.50067,-7.85239 -7.85126,-7.85305 z"
-         id="path7513" />
-      <text
-         id="text7483"
-         y="204.93794"
-         x="65.903358"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="fill:#ffffff;stroke-width:0.26458332"
-           y="204.93794"
-           x="65.903358"
-           id="tspan7481"
-           sodipodi:role="line">Hi, Nico</tspan></text>
-      <path
-         sodipodi:nodetypes="cccscccccscccccccccsccc"
-         inkscape:connector-curvature="0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.05498505px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.83221281"
-         d="m 107.43779,191.07032 c 0.0632,10e-4 0.12596,-4e-5 0.1881,0.0326 5.53395,0.10427 10.01686,4.62913 10.01645,10.18697 -2.7e-4,5.62235 -4.58338,10.15476 -10.20558,10.20506 l -41.820374,0.37418 h -9.029422 c -0.650351,2.7e-4 -1.177449,-0.52682 -1.17719,-1.17719 -0.0469,-2.96219 0.0609,-6.15299 0,-9.02787 v -0.002 c 7.94e-4,-5.62206 4.584682,-10.20507 10.206612,-10.20507 l 41.806934,-0.37418 h 0.0129 z m 0,2.35231 h -0.001 l -41.819852,0.37418 c -4.350178,2.7e-4 -7.851026,3.50196 -7.851717,7.85224 v 0.001 c 0.074,4.32682 3.455371,7.78588 7.851201,7.8543 l 41.820338,-0.37418 c 4.35045,-0.0389 7.85302,-3.50163 7.85326,-7.85223 2.7e-4,-4.3506 -3.50112,-7.85261 -7.85171,-7.85327 z"
-         id="path7511" />
-    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot7551"
